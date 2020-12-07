@@ -1,0 +1,25 @@
+{
+  "name": "mercadolibreserver",
+  "version": "1.0.0",
+  "description": "Prueba tecnica front mercadolibre",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenRs12/MercadolibreServer.git"
+  },
+  "author": "Steven Rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenRs12/MercadolibreServer/issues"
+  },
+  "homepage": "https://github.com/StevenRs12/MercadolibreServer#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.0",
+    "cors": "^2.8.5",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
