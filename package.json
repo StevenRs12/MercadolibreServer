@@ -2,7 +2,9 @@
   "name": "mercadolibreserver",
   "version": "1.0.0",
   "description": "Prueba tecnica front mercadolibre",
-  "scripts": {},
+  "scripts": {
+    "start": "node index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StevenRs12/MercadolibreServer.git"
