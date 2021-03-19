@@ -1,4 +1,4 @@
-const { PORT } = require ('./shared/constants')
+const { PORT } = require ('./src/shared/constants')
 
 const express = require('express');
 const cors = require('cors');
@@ -33,7 +33,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // Routes
-app.use(require('./routes/index'));
+app.use(require('./src/routes/index'));
 
 app.listen(PORT, () => {
   console.log('Escuchando puerto: ', PORT);
